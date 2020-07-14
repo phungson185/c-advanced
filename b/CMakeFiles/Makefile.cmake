@@ -46,8 +46,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/qlykhang.dir/DependInfo.cmake"
-  "CMakeFiles/cuoiki2018.dir/DependInfo.cmake"
+  "CMakeFiles/pr.dir/DependInfo.cmake"
   "libfdr/CMakeFiles/fdr.dir/DependInfo.cmake"
   "DebugPrintf/CMakeFiles/debug_printf.dir/DependInfo.cmake"
   )

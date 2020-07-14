@@ -111,30 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named qlykhang
+# Target rules for targets named pr
 
 # Build rule for target.
-qlykhang: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 qlykhang
-.PHONY : qlykhang
+pr: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pr
+.PHONY : pr
 
 # fast build rule for target.
-qlykhang/fast:
-	$(MAKE) -f CMakeFiles/qlykhang.dir/build.make CMakeFiles/qlykhang.dir/build
-.PHONY : qlykhang/fast
-
-#=============================================================================
-# Target rules for targets named cuoiki2018
-
-# Build rule for target.
-cuoiki2018: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cuoiki2018
-.PHONY : cuoiki2018
-
-# fast build rule for target.
-cuoiki2018/fast:
-	$(MAKE) -f CMakeFiles/cuoiki2018.dir/build.make CMakeFiles/cuoiki2018.dir/build
-.PHONY : cuoiki2018/fast
+pr/fast:
+	$(MAKE) -f CMakeFiles/pr.dir/build.make CMakeFiles/pr.dir/build
+.PHONY : pr/fast
 
 #=============================================================================
 # Target rules for targets named fdr
@@ -162,59 +149,32 @@ debug_printf/fast:
 	$(MAKE) -f DebugPrintf/CMakeFiles/debug_printf.dir/build.make DebugPrintf/CMakeFiles/debug_printf.dir/build
 .PHONY : debug_printf/fast
 
-ex/cuoiki2018.o: ex/cuoiki2018.c.o
+ex/ckk58.o: ex/ckk58.c.o
 
-.PHONY : ex/cuoiki2018.o
-
-# target to build an object file
-ex/cuoiki2018.c.o:
-	$(MAKE) -f CMakeFiles/cuoiki2018.dir/build.make CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.o
-.PHONY : ex/cuoiki2018.c.o
-
-ex/cuoiki2018.i: ex/cuoiki2018.c.i
-
-.PHONY : ex/cuoiki2018.i
-
-# target to preprocess a source file
-ex/cuoiki2018.c.i:
-	$(MAKE) -f CMakeFiles/cuoiki2018.dir/build.make CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.i
-.PHONY : ex/cuoiki2018.c.i
-
-ex/cuoiki2018.s: ex/cuoiki2018.c.s
-
-.PHONY : ex/cuoiki2018.s
-
-# target to generate assembly for a file
-ex/cuoiki2018.c.s:
-	$(MAKE) -f CMakeFiles/cuoiki2018.dir/build.make CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.s
-.PHONY : ex/cuoiki2018.c.s
-
-ex/quan_ly_kho_hang/qlykhang.o: ex/quan_ly_kho_hang/qlykhang.c.o
-
-.PHONY : ex/quan_ly_kho_hang/qlykhang.o
+.PHONY : ex/ckk58.o
 
 # target to build an object file
-ex/quan_ly_kho_hang/qlykhang.c.o:
-	$(MAKE) -f CMakeFiles/qlykhang.dir/build.make CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.o
-.PHONY : ex/quan_ly_kho_hang/qlykhang.c.o
+ex/ckk58.c.o:
+	$(MAKE) -f CMakeFiles/pr.dir/build.make CMakeFiles/pr.dir/ex/ckk58.c.o
+.PHONY : ex/ckk58.c.o
 
-ex/quan_ly_kho_hang/qlykhang.i: ex/quan_ly_kho_hang/qlykhang.c.i
+ex/ckk58.i: ex/ckk58.c.i
 
-.PHONY : ex/quan_ly_kho_hang/qlykhang.i
+.PHONY : ex/ckk58.i
 
 # target to preprocess a source file
-ex/quan_ly_kho_hang/qlykhang.c.i:
-	$(MAKE) -f CMakeFiles/qlykhang.dir/build.make CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.i
-.PHONY : ex/quan_ly_kho_hang/qlykhang.c.i
+ex/ckk58.c.i:
+	$(MAKE) -f CMakeFiles/pr.dir/build.make CMakeFiles/pr.dir/ex/ckk58.c.i
+.PHONY : ex/ckk58.c.i
 
-ex/quan_ly_kho_hang/qlykhang.s: ex/quan_ly_kho_hang/qlykhang.c.s
+ex/ckk58.s: ex/ckk58.c.s
 
-.PHONY : ex/quan_ly_kho_hang/qlykhang.s
+.PHONY : ex/ckk58.s
 
 # target to generate assembly for a file
-ex/quan_ly_kho_hang/qlykhang.c.s:
-	$(MAKE) -f CMakeFiles/qlykhang.dir/build.make CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.s
-.PHONY : ex/quan_ly_kho_hang/qlykhang.c.s
+ex/ckk58.c.s:
+	$(MAKE) -f CMakeFiles/pr.dir/build.make CMakeFiles/pr.dir/ex/ckk58.c.s
+.PHONY : ex/ckk58.c.s
 
 # Help Target
 help:
@@ -223,17 +183,13 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... pr"
 	@echo "... edit_cache"
-	@echo "... qlykhang"
-	@echo "... cuoiki2018"
 	@echo "... fdr"
 	@echo "... debug_printf"
-	@echo "... ex/cuoiki2018.o"
-	@echo "... ex/cuoiki2018.i"
-	@echo "... ex/cuoiki2018.s"
-	@echo "... ex/quan_ly_kho_hang/qlykhang.o"
-	@echo "... ex/quan_ly_kho_hang/qlykhang.i"
-	@echo "... ex/quan_ly_kho_hang/qlykhang.s"
+	@echo "... ex/ckk58.o"
+	@echo "... ex/ckk58.i"
+	@echo "... ex/ckk58.s"
 .PHONY : help
 
 

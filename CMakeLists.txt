@@ -25,9 +25,12 @@ if (USE_IGRAPH)
   set(IGRAPH_LIBS igraph m)
 endif (USE_IGRAPH)
 
-add_executable(qlykhang ex/quan_ly_kho_hang/qlykhang.c)
-target_link_libraries(qlykhang ${IGRAPH_LIBS} fdr debug_printf)
+#add_executable(pr ex/quan_ly_an_pham/pr.c)
+#target_link_libraries(pr ${IGRAPH_LIBS} fdr debug_printf)
 
-add_executable(cuoiki2018 ex/cuoiki2018.c)
-target_link_libraries(cuoiki2018 ${IGRAPH_LIBS} fdr debug_printf)
+add_executable(pr ex/ckk58.c)
+target_link_libraries(pr ${IGRAPH_LIBS} fdr debug_printf)
+
+#add_executable(cuoiki2018 ex/cuoiki2018.c)
+#target_link_libraries(cuoiki2018 ${IGRAPH_LIBS} fdr debug_printf)
 
