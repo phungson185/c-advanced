@@ -124,17 +124,17 @@ qlykhang/fast:
 .PHONY : qlykhang/fast
 
 #=============================================================================
-# Target rules for targets named cuoiki2015
+# Target rules for targets named cuoiki2018
 
 # Build rule for target.
-cuoiki2015: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cuoiki2015
-.PHONY : cuoiki2015
+cuoiki2018: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cuoiki2018
+.PHONY : cuoiki2018
 
 # fast build rule for target.
-cuoiki2015/fast:
-	$(MAKE) -f CMakeFiles/cuoiki2015.dir/build.make CMakeFiles/cuoiki2015.dir/build
-.PHONY : cuoiki2015/fast
+cuoiki2018/fast:
+	$(MAKE) -f CMakeFiles/cuoiki2018.dir/build.make CMakeFiles/cuoiki2018.dir/build
+.PHONY : cuoiki2018/fast
 
 #=============================================================================
 # Target rules for targets named fdr
@@ -162,32 +162,32 @@ debug_printf/fast:
 	$(MAKE) -f DebugPrintf/CMakeFiles/debug_printf.dir/build.make DebugPrintf/CMakeFiles/debug_printf.dir/build
 .PHONY : debug_printf/fast
 
-ex/cuoiki2015.o: ex/cuoiki2015.c.o
+ex/cuoiki2018.o: ex/cuoiki2018.c.o
 
-.PHONY : ex/cuoiki2015.o
+.PHONY : ex/cuoiki2018.o
 
 # target to build an object file
-ex/cuoiki2015.c.o:
-	$(MAKE) -f CMakeFiles/cuoiki2015.dir/build.make CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.o
-.PHONY : ex/cuoiki2015.c.o
+ex/cuoiki2018.c.o:
+	$(MAKE) -f CMakeFiles/cuoiki2018.dir/build.make CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.o
+.PHONY : ex/cuoiki2018.c.o
 
-ex/cuoiki2015.i: ex/cuoiki2015.c.i
+ex/cuoiki2018.i: ex/cuoiki2018.c.i
 
-.PHONY : ex/cuoiki2015.i
+.PHONY : ex/cuoiki2018.i
 
 # target to preprocess a source file
-ex/cuoiki2015.c.i:
-	$(MAKE) -f CMakeFiles/cuoiki2015.dir/build.make CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.i
-.PHONY : ex/cuoiki2015.c.i
+ex/cuoiki2018.c.i:
+	$(MAKE) -f CMakeFiles/cuoiki2018.dir/build.make CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.i
+.PHONY : ex/cuoiki2018.c.i
 
-ex/cuoiki2015.s: ex/cuoiki2015.c.s
+ex/cuoiki2018.s: ex/cuoiki2018.c.s
 
-.PHONY : ex/cuoiki2015.s
+.PHONY : ex/cuoiki2018.s
 
 # target to generate assembly for a file
-ex/cuoiki2015.c.s:
-	$(MAKE) -f CMakeFiles/cuoiki2015.dir/build.make CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.s
-.PHONY : ex/cuoiki2015.c.s
+ex/cuoiki2018.c.s:
+	$(MAKE) -f CMakeFiles/cuoiki2018.dir/build.make CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.s
+.PHONY : ex/cuoiki2018.c.s
 
 ex/quan_ly_kho_hang/qlykhang.o: ex/quan_ly_kho_hang/qlykhang.c.o
 
@@ -225,12 +225,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... qlykhang"
-	@echo "... cuoiki2015"
+	@echo "... cuoiki2018"
 	@echo "... fdr"
 	@echo "... debug_printf"
-	@echo "... ex/cuoiki2015.o"
-	@echo "... ex/cuoiki2015.i"
-	@echo "... ex/cuoiki2015.s"
+	@echo "... ex/cuoiki2018.o"
+	@echo "... ex/cuoiki2018.i"
+	@echo "... ex/cuoiki2018.s"
 	@echo "... ex/quan_ly_kho_hang/qlykhang.o"
 	@echo "... ex/quan_ly_kho_hang/qlykhang.i"
 	@echo "... ex/quan_ly_kho_hang/qlykhang.s"

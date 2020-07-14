@@ -98,40 +98,40 @@ clean: CMakeFiles/qlykhang.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/cuoiki2015.dir
+# Target rules for target CMakeFiles/cuoiki2018.dir
 
 # All Build rule for target.
-CMakeFiles/cuoiki2015.dir/all: libfdr/CMakeFiles/fdr.dir/all
-CMakeFiles/cuoiki2015.dir/all: DebugPrintf/CMakeFiles/debug_printf.dir/all
-	$(MAKE) -f CMakeFiles/cuoiki2015.dir/build.make CMakeFiles/cuoiki2015.dir/depend
-	$(MAKE) -f CMakeFiles/cuoiki2015.dir/build.make CMakeFiles/cuoiki2015.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phungson/hyouteisan/b/CMakeFiles --progress-num=1,2 "Built target cuoiki2015"
-.PHONY : CMakeFiles/cuoiki2015.dir/all
+CMakeFiles/cuoiki2018.dir/all: libfdr/CMakeFiles/fdr.dir/all
+CMakeFiles/cuoiki2018.dir/all: DebugPrintf/CMakeFiles/debug_printf.dir/all
+	$(MAKE) -f CMakeFiles/cuoiki2018.dir/build.make CMakeFiles/cuoiki2018.dir/depend
+	$(MAKE) -f CMakeFiles/cuoiki2018.dir/build.make CMakeFiles/cuoiki2018.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phungson/hyouteisan/b/CMakeFiles --progress-num=1,2 "Built target cuoiki2018"
+.PHONY : CMakeFiles/cuoiki2018.dir/all
 
 # Include target in all.
-all: CMakeFiles/cuoiki2015.dir/all
+all: CMakeFiles/cuoiki2018.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/cuoiki2015.dir/rule: cmake_check_build_system
+CMakeFiles/cuoiki2018.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/phungson/hyouteisan/b/CMakeFiles 9
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cuoiki2015.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cuoiki2018.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/phungson/hyouteisan/b/CMakeFiles 0
-.PHONY : CMakeFiles/cuoiki2015.dir/rule
+.PHONY : CMakeFiles/cuoiki2018.dir/rule
 
 # Convenience name for target.
-cuoiki2015: CMakeFiles/cuoiki2015.dir/rule
+cuoiki2018: CMakeFiles/cuoiki2018.dir/rule
 
-.PHONY : cuoiki2015
-
-# clean rule for target.
-CMakeFiles/cuoiki2015.dir/clean:
-	$(MAKE) -f CMakeFiles/cuoiki2015.dir/build.make CMakeFiles/cuoiki2015.dir/clean
-.PHONY : CMakeFiles/cuoiki2015.dir/clean
+.PHONY : cuoiki2018
 
 # clean rule for target.
-clean: CMakeFiles/cuoiki2015.dir/clean
+CMakeFiles/cuoiki2018.dir/clean:
+	$(MAKE) -f CMakeFiles/cuoiki2018.dir/build.make CMakeFiles/cuoiki2018.dir/clean
+.PHONY : CMakeFiles/cuoiki2018.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/cuoiki2018.dir/clean
 
 .PHONY : clean
 

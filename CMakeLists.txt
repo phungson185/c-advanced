@@ -28,6 +28,6 @@ endif (USE_IGRAPH)
 add_executable(qlykhang ex/quan_ly_kho_hang/qlykhang.c)
 target_link_libraries(qlykhang ${IGRAPH_LIBS} fdr debug_printf)
 
-add_executable(cuoiki2015 ex/cuoiki2015.c)
-target_link_libraries(cuoiki2015 ${IGRAPH_LIBS} fdr debug_printf)
+add_executable(cuoiki2018 ex/cuoiki2018.c)
+target_link_libraries(cuoiki2018 ${IGRAPH_LIBS} fdr debug_printf)
 
