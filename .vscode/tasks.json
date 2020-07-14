@@ -1,0 +1,31 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "gcc build active file",
+            "command": "/usr/bin/gcc",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-I",
+                "/home/phungson/hyouteisan/igraph",
+                "-L",
+                "/home/phungson/hyouteisan/binaries/",
+                "-l",
+                "igraph",
+                "-I",
+                "/home/phungson/hyouteisan/lib",
+                "-L",
+                "/home/phungson/hyouteisan/lib/blib",
+                "-l",
+                "fdr"
+            ],
+            "options": {
+                "cwd": "/usr/bin"
+            }
+        }
+    ],
+    "version": "2.0.0"
+}

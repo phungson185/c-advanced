@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "dllist.h": "c",
+        "soundex.h": "c",
+        "gdkkeysyms.h": "c",
+        "suggest.h": "c",
+        "jval.h": "c",
+        "cvector.h": "c",
+        "type_traits": "c",
+        "igraph.h": "c",
+        "stdio.h": "c",
+        "cjset.h": "c",
+        "containers.h": "c",
+        "jrb.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}

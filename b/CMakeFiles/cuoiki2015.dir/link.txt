@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.o  -o cuoiki2015  -L/home/phungson/hyouteisan/cmake-btree/lib -Wl,-rpath,/home/phungson/hyouteisan/cmake-btree/lib ../binaries/libigraph.a -lm libfdr/libfdr.a DebugPrintf/libdebug_printf.a 
