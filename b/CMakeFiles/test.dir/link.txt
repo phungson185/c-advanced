@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/test.dir/ex/test.c.o  -o test  -L/home/phungson/hyouteisan/cmake-btree/lib -Wl,-rpath,/home/phungson/hyouteisan/cmake-btree/lib ../binaries/libigraph.a -lm libfdr/libfdr.a DebugPrintf/libdebug_printf.a 

@@ -1,1 +1,1 @@
-/usr/bin/cc -g  -rdynamic CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.o  -o cuoiki2018  -L/home/phungson/hyouteisan/cmake-btree/lib -Wl,-rpath,/home/phungson/hyouteisan/cmake-btree/lib ../binaries/libigraph.a -lm libfdr/libfdr.a DebugPrintf/libdebug_printf.a 
+/usr/bin/cc -g  -rdynamic CMakeFiles/cuoiki2018.dir/ex/thanh_tri/cuoiki2018.c.o  -o cuoiki2018  -L/home/phungson/hyouteisan/cmake-btree/lib -Wl,-rpath,/home/phungson/hyouteisan/cmake-btree/lib ../binaries/libigraph.a -lm libfdr/libfdr.a DebugPrintf/libdebug_printf.a 

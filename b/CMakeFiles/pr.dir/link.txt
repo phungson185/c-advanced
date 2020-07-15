@@ -1,1 +1,1 @@
-/usr/bin/cc -g  -rdynamic CMakeFiles/pr.dir/ex/ckk58.c.o  -o pr  -L/home/phungson/hyouteisan/cmake-btree/lib -Wl,-rpath,/home/phungson/hyouteisan/cmake-btree/lib ../binaries/libigraph.a -lm libfdr/libfdr.a DebugPrintf/libdebug_printf.a 
+/usr/bin/cc -g  -rdynamic CMakeFiles/pr.dir/ex/quan_ly_an_pham/pr.c.o  -o pr  -L/home/phungson/hyouteisan/cmake-btree/lib -Wl,-rpath,/home/phungson/hyouteisan/cmake-btree/lib ../binaries/libigraph.a -lm libfdr/libfdr.a DebugPrintf/libdebug_printf.a 

@@ -30,12 +30,19 @@ long int print_range(igraph_vector_t *e, igraph_vector_t *w) {
     }
     return sum;
 }
-void print_vector(igraph_vector_t *v) {
+void print_vecto(igraph_vector_t *v) {
     long int i; 
     for (i = 0; i < igraph_vector_size(v); i++) {
         printf("%ld\n",(long int) VECTOR(*v)[i]);
     }
     printf("\n");
+}
+void print_vector(igraph_vector_t *v, FILE *f) {
+    long int i;
+    for (i = 0; i < igraph_vector_size(v); i++) {
+        fprintf(f, " %li", (long int) VECTOR(*v)[i]);
+    }
+    fprintf(f, "\n");
 }
 int docfile(char* tenfile)
 {
@@ -75,7 +82,7 @@ int docfile(char* tenfile)
         cvector_push_back(data_trichdan,tmp);
         igraph_vector_push_back(&code,a);
         igraph_vector_push_back(&code,b);
-        igraph_vector_push_back(&w,1);
+        //igraph_vector_push_back(&w,1);
     }
     fclose(p);
 }
@@ -154,7 +161,7 @@ int main(int argc, char *argv[])
                 }
         }
         }
-    if(strcmp(argv[1],"odg")==0)
+    /*if(strcmp(argv[1],"odg")==0)
     {
         docfile(argv[2]);
         int bbr = 1,check = 1;
@@ -190,7 +197,7 @@ int main(int argc, char *argv[])
                 printf("%s\n",jrb_find_int(i2n,i)->val.s);
             }
         }
-    }
+    }*/
     if(strcmp(argv[1],"rel")==0)
     {
         docfile(argv[2]);
@@ -208,5 +215,19 @@ int main(int argc, char *argv[])
         }
         //printf("%ld\n",print_range(&e,&w));
         //print_vector(&v);
+    }
+    if(strcmp(argv[1],"odg")==0)
+    {
+        docfile(argv[2]);
+        igraph_create(&g,&code,0,1);
+        igraph_degree(&g, &code, igraph_vss_all(), IGRAPH_OUT, IGRAPH_NO_LOOPS);
+        for (int i = 0; i < igraph_vector_size(&code); i++)
+        {
+            if (VECTOR(code)[i] > 1)
+            {
+                printf("%s\n",jrb_find_int(i2n,i)->val.s);
+            }  
+        }
+        
     }
 }   

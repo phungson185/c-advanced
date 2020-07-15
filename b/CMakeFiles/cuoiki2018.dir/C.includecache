@@ -1086,7 +1086,7 @@ igraph_datatype.h
 
 ../libfdr/jval.h
 
-/home/phungson/hyouteisan/ex/cuoiki2018.c
+/home/phungson/hyouteisan/ex/thanh_tri/cuoiki2018.c
 stdio.h
 -
 string.h
@@ -1094,13 +1094,13 @@ string.h
 stdlib.h
 -
 libfdr/jrb.h
-/home/phungson/hyouteisan/ex/libfdr/jrb.h
+/home/phungson/hyouteisan/ex/thanh_tri/libfdr/jrb.h
 libfdr/jval.h
-/home/phungson/hyouteisan/ex/libfdr/jval.h
+/home/phungson/hyouteisan/ex/thanh_tri/libfdr/jval.h
 igraph/igraph.h
-/home/phungson/hyouteisan/ex/igraph/igraph.h
+/home/phungson/hyouteisan/ex/thanh_tri/igraph/igraph.h
 DebugPrintf/debug_printf.h
-/home/phungson/hyouteisan/ex/DebugPrintf/debug_printf.h
+/home/phungson/hyouteisan/ex/thanh_tri/DebugPrintf/debug_printf.h
 c-vector/cvector.h
-/home/phungson/hyouteisan/ex/c-vector/cvector.h
+/home/phungson/hyouteisan/ex/thanh_tri/c-vector/cvector.h
 

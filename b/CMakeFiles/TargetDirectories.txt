@@ -1,6 +1,7 @@
 /home/phungson/hyouteisan/b/CMakeFiles/rebuild_cache.dir
-/home/phungson/hyouteisan/b/CMakeFiles/pr.dir
 /home/phungson/hyouteisan/b/CMakeFiles/edit_cache.dir
+/home/phungson/hyouteisan/b/CMakeFiles/dns.dir
+/home/phungson/hyouteisan/b/CMakeFiles/qlykhang.dir
 /home/phungson/hyouteisan/b/libfdr/CMakeFiles/rebuild_cache.dir
 /home/phungson/hyouteisan/b/libfdr/CMakeFiles/fdr.dir
 /home/phungson/hyouteisan/b/libfdr/CMakeFiles/edit_cache.dir

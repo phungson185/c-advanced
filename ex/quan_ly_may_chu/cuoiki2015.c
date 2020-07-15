@@ -119,12 +119,16 @@ int main(int argc, char *argv[])
         {
             if(atoi(argv[3]) == tt.id1[i])
                 sum++;
+            if(atoi(argv[3]) == tt.id2[i])
+                sum++;
         }
         printf("%d\n",sum);
         for(int i = 0;i<so_luong_may_chu ;i++)
         {
             if(atoi(argv[3]) == tt.id1[i])
                 printf("%d %s\n",tt.id2[i],jrb_find_int(ip,tt.id2[i])->val.s);
+            if(atoi(argv[3]) == tt.id2[i])
+                printf("%d %s\n",tt.id1[i],jrb_find_int(ip,tt.id1[i])->val.s);
         }
     }
     else if (strcmp(argv[1],"-s")==0)

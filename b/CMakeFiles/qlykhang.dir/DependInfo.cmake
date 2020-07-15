@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/phungson/hyouteisan/ex/quan_ly_kho_hang/qlykhang.c" "/home/phungson/hyouteisan/b/CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.o"
+  "/home/phungson/hyouteisan/ex/quan_ly_kho_hang/quanlykhachhang.c" "/home/phungson/hyouteisan/b/CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pr.dir/ex/ckk58.c.o"
+  "CMakeFiles/pr.dir/ex/quan_ly_an_pham/pr.c.o"
   "pr.pdb"
   "pr"
 )

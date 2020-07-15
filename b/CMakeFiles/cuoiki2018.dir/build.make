@@ -57,38 +57,38 @@ include CMakeFiles/cuoiki2018.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cuoiki2018.dir/flags.make
 
-CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.o: CMakeFiles/cuoiki2018.dir/flags.make
-CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.o: ../ex/cuoiki2018.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/phungson/hyouteisan/b/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.o   -c /home/phungson/hyouteisan/ex/cuoiki2018.c
+CMakeFiles/cuoiki2018.dir/ex/thanh_tri/cuoiki2018.c.o: CMakeFiles/cuoiki2018.dir/flags.make
+CMakeFiles/cuoiki2018.dir/ex/thanh_tri/cuoiki2018.c.o: ../ex/thanh_tri/cuoiki2018.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/phungson/hyouteisan/b/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cuoiki2018.dir/ex/thanh_tri/cuoiki2018.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cuoiki2018.dir/ex/thanh_tri/cuoiki2018.c.o   -c /home/phungson/hyouteisan/ex/thanh_tri/cuoiki2018.c
 
-CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/phungson/hyouteisan/ex/cuoiki2018.c > CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.i
+CMakeFiles/cuoiki2018.dir/ex/thanh_tri/cuoiki2018.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cuoiki2018.dir/ex/thanh_tri/cuoiki2018.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/phungson/hyouteisan/ex/thanh_tri/cuoiki2018.c > CMakeFiles/cuoiki2018.dir/ex/thanh_tri/cuoiki2018.c.i
 
-CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/phungson/hyouteisan/ex/cuoiki2018.c -o CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.s
+CMakeFiles/cuoiki2018.dir/ex/thanh_tri/cuoiki2018.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cuoiki2018.dir/ex/thanh_tri/cuoiki2018.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/phungson/hyouteisan/ex/thanh_tri/cuoiki2018.c -o CMakeFiles/cuoiki2018.dir/ex/thanh_tri/cuoiki2018.c.s
 
-CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.o.requires:
+CMakeFiles/cuoiki2018.dir/ex/thanh_tri/cuoiki2018.c.o.requires:
 
-.PHONY : CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.o.requires
+.PHONY : CMakeFiles/cuoiki2018.dir/ex/thanh_tri/cuoiki2018.c.o.requires
 
-CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.o.provides: CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.o.requires
-	$(MAKE) -f CMakeFiles/cuoiki2018.dir/build.make CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.o.provides.build
-.PHONY : CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.o.provides
+CMakeFiles/cuoiki2018.dir/ex/thanh_tri/cuoiki2018.c.o.provides: CMakeFiles/cuoiki2018.dir/ex/thanh_tri/cuoiki2018.c.o.requires
+	$(MAKE) -f CMakeFiles/cuoiki2018.dir/build.make CMakeFiles/cuoiki2018.dir/ex/thanh_tri/cuoiki2018.c.o.provides.build
+.PHONY : CMakeFiles/cuoiki2018.dir/ex/thanh_tri/cuoiki2018.c.o.provides
 
-CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.o.provides.build: CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.o
+CMakeFiles/cuoiki2018.dir/ex/thanh_tri/cuoiki2018.c.o.provides.build: CMakeFiles/cuoiki2018.dir/ex/thanh_tri/cuoiki2018.c.o
 
 
 # Object files for target cuoiki2018
 cuoiki2018_OBJECTS = \
-"CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.o"
+"CMakeFiles/cuoiki2018.dir/ex/thanh_tri/cuoiki2018.c.o"
 
 # External object files for target cuoiki2018
 cuoiki2018_EXTERNAL_OBJECTS =
 
-cuoiki2018: CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.o
+cuoiki2018: CMakeFiles/cuoiki2018.dir/ex/thanh_tri/cuoiki2018.c.o
 cuoiki2018: CMakeFiles/cuoiki2018.dir/build.make
 cuoiki2018: ../binaries/libigraph.a
 cuoiki2018: libfdr/libfdr.a
@@ -102,7 +102,7 @@ CMakeFiles/cuoiki2018.dir/build: cuoiki2018
 
 .PHONY : CMakeFiles/cuoiki2018.dir/build
 
-CMakeFiles/cuoiki2018.dir/requires: CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.o.requires
+CMakeFiles/cuoiki2018.dir/requires: CMakeFiles/cuoiki2018.dir/ex/thanh_tri/cuoiki2018.c.o.requires
 
 .PHONY : CMakeFiles/cuoiki2018.dir/requires
 

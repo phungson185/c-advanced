@@ -111,17 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named pr
+# Target rules for targets named dns
 
 # Build rule for target.
-pr: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pr
-.PHONY : pr
+dns: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dns
+.PHONY : dns
 
 # fast build rule for target.
-pr/fast:
-	$(MAKE) -f CMakeFiles/pr.dir/build.make CMakeFiles/pr.dir/build
-.PHONY : pr/fast
+dns/fast:
+	$(MAKE) -f CMakeFiles/dns.dir/build.make CMakeFiles/dns.dir/build
+.PHONY : dns/fast
+
+#=============================================================================
+# Target rules for targets named qlykhang
+
+# Build rule for target.
+qlykhang: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 qlykhang
+.PHONY : qlykhang
+
+# fast build rule for target.
+qlykhang/fast:
+	$(MAKE) -f CMakeFiles/qlykhang.dir/build.make CMakeFiles/qlykhang.dir/build
+.PHONY : qlykhang/fast
 
 #=============================================================================
 # Target rules for targets named fdr
@@ -149,32 +162,59 @@ debug_printf/fast:
 	$(MAKE) -f DebugPrintf/CMakeFiles/debug_printf.dir/build.make DebugPrintf/CMakeFiles/debug_printf.dir/build
 .PHONY : debug_printf/fast
 
-ex/ckk58.o: ex/ckk58.c.o
+ex/dns/dns.o: ex/dns/dns.c.o
 
-.PHONY : ex/ckk58.o
+.PHONY : ex/dns/dns.o
 
 # target to build an object file
-ex/ckk58.c.o:
-	$(MAKE) -f CMakeFiles/pr.dir/build.make CMakeFiles/pr.dir/ex/ckk58.c.o
-.PHONY : ex/ckk58.c.o
+ex/dns/dns.c.o:
+	$(MAKE) -f CMakeFiles/dns.dir/build.make CMakeFiles/dns.dir/ex/dns/dns.c.o
+.PHONY : ex/dns/dns.c.o
 
-ex/ckk58.i: ex/ckk58.c.i
+ex/dns/dns.i: ex/dns/dns.c.i
 
-.PHONY : ex/ckk58.i
+.PHONY : ex/dns/dns.i
 
 # target to preprocess a source file
-ex/ckk58.c.i:
-	$(MAKE) -f CMakeFiles/pr.dir/build.make CMakeFiles/pr.dir/ex/ckk58.c.i
-.PHONY : ex/ckk58.c.i
+ex/dns/dns.c.i:
+	$(MAKE) -f CMakeFiles/dns.dir/build.make CMakeFiles/dns.dir/ex/dns/dns.c.i
+.PHONY : ex/dns/dns.c.i
 
-ex/ckk58.s: ex/ckk58.c.s
+ex/dns/dns.s: ex/dns/dns.c.s
 
-.PHONY : ex/ckk58.s
+.PHONY : ex/dns/dns.s
 
 # target to generate assembly for a file
-ex/ckk58.c.s:
-	$(MAKE) -f CMakeFiles/pr.dir/build.make CMakeFiles/pr.dir/ex/ckk58.c.s
-.PHONY : ex/ckk58.c.s
+ex/dns/dns.c.s:
+	$(MAKE) -f CMakeFiles/dns.dir/build.make CMakeFiles/dns.dir/ex/dns/dns.c.s
+.PHONY : ex/dns/dns.c.s
+
+ex/quan_ly_kho_hang/quanlykhachhang.o: ex/quan_ly_kho_hang/quanlykhachhang.c.o
+
+.PHONY : ex/quan_ly_kho_hang/quanlykhachhang.o
+
+# target to build an object file
+ex/quan_ly_kho_hang/quanlykhachhang.c.o:
+	$(MAKE) -f CMakeFiles/qlykhang.dir/build.make CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.o
+.PHONY : ex/quan_ly_kho_hang/quanlykhachhang.c.o
+
+ex/quan_ly_kho_hang/quanlykhachhang.i: ex/quan_ly_kho_hang/quanlykhachhang.c.i
+
+.PHONY : ex/quan_ly_kho_hang/quanlykhachhang.i
+
+# target to preprocess a source file
+ex/quan_ly_kho_hang/quanlykhachhang.c.i:
+	$(MAKE) -f CMakeFiles/qlykhang.dir/build.make CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.i
+.PHONY : ex/quan_ly_kho_hang/quanlykhachhang.c.i
+
+ex/quan_ly_kho_hang/quanlykhachhang.s: ex/quan_ly_kho_hang/quanlykhachhang.c.s
+
+.PHONY : ex/quan_ly_kho_hang/quanlykhachhang.s
+
+# target to generate assembly for a file
+ex/quan_ly_kho_hang/quanlykhachhang.c.s:
+	$(MAKE) -f CMakeFiles/qlykhang.dir/build.make CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.s
+.PHONY : ex/quan_ly_kho_hang/quanlykhachhang.c.s
 
 # Help Target
 help:
@@ -183,13 +223,17 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... pr"
 	@echo "... edit_cache"
+	@echo "... dns"
+	@echo "... qlykhang"
 	@echo "... fdr"
 	@echo "... debug_printf"
-	@echo "... ex/ckk58.o"
-	@echo "... ex/ckk58.i"
-	@echo "... ex/ckk58.s"
+	@echo "... ex/dns/dns.o"
+	@echo "... ex/dns/dns.i"
+	@echo "... ex/dns/dns.s"
+	@echo "... ex/quan_ly_kho_hang/quanlykhachhang.o"
+	@echo "... ex/quan_ly_kho_hang/quanlykhachhang.i"
+	@echo "... ex/quan_ly_kho_hang/quanlykhachhang.s"
 .PHONY : help
 
 

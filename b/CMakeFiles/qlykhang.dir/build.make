@@ -57,38 +57,38 @@ include CMakeFiles/qlykhang.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/qlykhang.dir/flags.make
 
-CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.o: CMakeFiles/qlykhang.dir/flags.make
-CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.o: ../ex/quan_ly_kho_hang/qlykhang.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/phungson/hyouteisan/b/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.o   -c /home/phungson/hyouteisan/ex/quan_ly_kho_hang/qlykhang.c
+CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.o: CMakeFiles/qlykhang.dir/flags.make
+CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.o: ../ex/quan_ly_kho_hang/quanlykhachhang.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/phungson/hyouteisan/b/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.o   -c /home/phungson/hyouteisan/ex/quan_ly_kho_hang/quanlykhachhang.c
 
-CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/phungson/hyouteisan/ex/quan_ly_kho_hang/qlykhang.c > CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.i
+CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/phungson/hyouteisan/ex/quan_ly_kho_hang/quanlykhachhang.c > CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.i
 
-CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/phungson/hyouteisan/ex/quan_ly_kho_hang/qlykhang.c -o CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.s
+CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/phungson/hyouteisan/ex/quan_ly_kho_hang/quanlykhachhang.c -o CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.s
 
-CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.o.requires:
+CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.o.requires:
 
-.PHONY : CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.o.requires
+.PHONY : CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.o.requires
 
-CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.o.provides: CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.o.requires
-	$(MAKE) -f CMakeFiles/qlykhang.dir/build.make CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.o.provides.build
-.PHONY : CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.o.provides
+CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.o.provides: CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.o.requires
+	$(MAKE) -f CMakeFiles/qlykhang.dir/build.make CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.o.provides.build
+.PHONY : CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.o.provides
 
-CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.o.provides.build: CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.o
+CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.o.provides.build: CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.o
 
 
 # Object files for target qlykhang
 qlykhang_OBJECTS = \
-"CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.o"
+"CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.o"
 
 # External object files for target qlykhang
 qlykhang_EXTERNAL_OBJECTS =
 
-qlykhang: CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.o
+qlykhang: CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.o
 qlykhang: CMakeFiles/qlykhang.dir/build.make
 qlykhang: ../binaries/libigraph.a
 qlykhang: libfdr/libfdr.a
@@ -102,7 +102,7 @@ CMakeFiles/qlykhang.dir/build: qlykhang
 
 .PHONY : CMakeFiles/qlykhang.dir/build
 
-CMakeFiles/qlykhang.dir/requires: CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.o.requires
+CMakeFiles/qlykhang.dir/requires: CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.o.requires
 
 .PHONY : CMakeFiles/qlykhang.dir/requires
 

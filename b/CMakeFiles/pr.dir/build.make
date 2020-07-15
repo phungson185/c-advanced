@@ -57,38 +57,38 @@ include CMakeFiles/pr.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/pr.dir/flags.make
 
-CMakeFiles/pr.dir/ex/ckk58.c.o: CMakeFiles/pr.dir/flags.make
-CMakeFiles/pr.dir/ex/ckk58.c.o: ../ex/ckk58.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/phungson/hyouteisan/b/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pr.dir/ex/ckk58.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pr.dir/ex/ckk58.c.o   -c /home/phungson/hyouteisan/ex/ckk58.c
+CMakeFiles/pr.dir/ex/quan_ly_an_pham/pr.c.o: CMakeFiles/pr.dir/flags.make
+CMakeFiles/pr.dir/ex/quan_ly_an_pham/pr.c.o: ../ex/quan_ly_an_pham/pr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/phungson/hyouteisan/b/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pr.dir/ex/quan_ly_an_pham/pr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pr.dir/ex/quan_ly_an_pham/pr.c.o   -c /home/phungson/hyouteisan/ex/quan_ly_an_pham/pr.c
 
-CMakeFiles/pr.dir/ex/ckk58.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pr.dir/ex/ckk58.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/phungson/hyouteisan/ex/ckk58.c > CMakeFiles/pr.dir/ex/ckk58.c.i
+CMakeFiles/pr.dir/ex/quan_ly_an_pham/pr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pr.dir/ex/quan_ly_an_pham/pr.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/phungson/hyouteisan/ex/quan_ly_an_pham/pr.c > CMakeFiles/pr.dir/ex/quan_ly_an_pham/pr.c.i
 
-CMakeFiles/pr.dir/ex/ckk58.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pr.dir/ex/ckk58.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/phungson/hyouteisan/ex/ckk58.c -o CMakeFiles/pr.dir/ex/ckk58.c.s
+CMakeFiles/pr.dir/ex/quan_ly_an_pham/pr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pr.dir/ex/quan_ly_an_pham/pr.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/phungson/hyouteisan/ex/quan_ly_an_pham/pr.c -o CMakeFiles/pr.dir/ex/quan_ly_an_pham/pr.c.s
 
-CMakeFiles/pr.dir/ex/ckk58.c.o.requires:
+CMakeFiles/pr.dir/ex/quan_ly_an_pham/pr.c.o.requires:
 
-.PHONY : CMakeFiles/pr.dir/ex/ckk58.c.o.requires
+.PHONY : CMakeFiles/pr.dir/ex/quan_ly_an_pham/pr.c.o.requires
 
-CMakeFiles/pr.dir/ex/ckk58.c.o.provides: CMakeFiles/pr.dir/ex/ckk58.c.o.requires
-	$(MAKE) -f CMakeFiles/pr.dir/build.make CMakeFiles/pr.dir/ex/ckk58.c.o.provides.build
-.PHONY : CMakeFiles/pr.dir/ex/ckk58.c.o.provides
+CMakeFiles/pr.dir/ex/quan_ly_an_pham/pr.c.o.provides: CMakeFiles/pr.dir/ex/quan_ly_an_pham/pr.c.o.requires
+	$(MAKE) -f CMakeFiles/pr.dir/build.make CMakeFiles/pr.dir/ex/quan_ly_an_pham/pr.c.o.provides.build
+.PHONY : CMakeFiles/pr.dir/ex/quan_ly_an_pham/pr.c.o.provides
 
-CMakeFiles/pr.dir/ex/ckk58.c.o.provides.build: CMakeFiles/pr.dir/ex/ckk58.c.o
+CMakeFiles/pr.dir/ex/quan_ly_an_pham/pr.c.o.provides.build: CMakeFiles/pr.dir/ex/quan_ly_an_pham/pr.c.o
 
 
 # Object files for target pr
 pr_OBJECTS = \
-"CMakeFiles/pr.dir/ex/ckk58.c.o"
+"CMakeFiles/pr.dir/ex/quan_ly_an_pham/pr.c.o"
 
 # External object files for target pr
 pr_EXTERNAL_OBJECTS =
 
-pr: CMakeFiles/pr.dir/ex/ckk58.c.o
+pr: CMakeFiles/pr.dir/ex/quan_ly_an_pham/pr.c.o
 pr: CMakeFiles/pr.dir/build.make
 pr: ../binaries/libigraph.a
 pr: libfdr/libfdr.a
@@ -102,7 +102,7 @@ CMakeFiles/pr.dir/build: pr
 
 .PHONY : CMakeFiles/pr.dir/build
 
-CMakeFiles/pr.dir/requires: CMakeFiles/pr.dir/ex/ckk58.c.o.requires
+CMakeFiles/pr.dir/requires: CMakeFiles/pr.dir/ex/quan_ly_an_pham/pr.c.o.requires
 
 .PHONY : CMakeFiles/pr.dir/requires
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/qlykhang.c.o"
+  "CMakeFiles/qlykhang.dir/ex/quan_ly_kho_hang/quanlykhachhang.c.o"
   "qlykhang.pdb"
   "qlykhang"
 )

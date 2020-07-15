@@ -57,38 +57,38 @@ include CMakeFiles/cuoiki2015.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cuoiki2015.dir/flags.make
 
-CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.o: CMakeFiles/cuoiki2015.dir/flags.make
-CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.o: ../ex/cuoiki2015.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/phungson/hyouteisan/b/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.o   -c /home/phungson/hyouteisan/ex/cuoiki2015.c
+CMakeFiles/cuoiki2015.dir/ex/quan_ly_may_chu/cuoiki2015.c.o: CMakeFiles/cuoiki2015.dir/flags.make
+CMakeFiles/cuoiki2015.dir/ex/quan_ly_may_chu/cuoiki2015.c.o: ../ex/quan_ly_may_chu/cuoiki2015.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/phungson/hyouteisan/b/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cuoiki2015.dir/ex/quan_ly_may_chu/cuoiki2015.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cuoiki2015.dir/ex/quan_ly_may_chu/cuoiki2015.c.o   -c /home/phungson/hyouteisan/ex/quan_ly_may_chu/cuoiki2015.c
 
-CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/phungson/hyouteisan/ex/cuoiki2015.c > CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.i
+CMakeFiles/cuoiki2015.dir/ex/quan_ly_may_chu/cuoiki2015.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cuoiki2015.dir/ex/quan_ly_may_chu/cuoiki2015.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/phungson/hyouteisan/ex/quan_ly_may_chu/cuoiki2015.c > CMakeFiles/cuoiki2015.dir/ex/quan_ly_may_chu/cuoiki2015.c.i
 
-CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/phungson/hyouteisan/ex/cuoiki2015.c -o CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.s
+CMakeFiles/cuoiki2015.dir/ex/quan_ly_may_chu/cuoiki2015.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cuoiki2015.dir/ex/quan_ly_may_chu/cuoiki2015.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/phungson/hyouteisan/ex/quan_ly_may_chu/cuoiki2015.c -o CMakeFiles/cuoiki2015.dir/ex/quan_ly_may_chu/cuoiki2015.c.s
 
-CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.o.requires:
+CMakeFiles/cuoiki2015.dir/ex/quan_ly_may_chu/cuoiki2015.c.o.requires:
 
-.PHONY : CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.o.requires
+.PHONY : CMakeFiles/cuoiki2015.dir/ex/quan_ly_may_chu/cuoiki2015.c.o.requires
 
-CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.o.provides: CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.o.requires
-	$(MAKE) -f CMakeFiles/cuoiki2015.dir/build.make CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.o.provides.build
-.PHONY : CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.o.provides
+CMakeFiles/cuoiki2015.dir/ex/quan_ly_may_chu/cuoiki2015.c.o.provides: CMakeFiles/cuoiki2015.dir/ex/quan_ly_may_chu/cuoiki2015.c.o.requires
+	$(MAKE) -f CMakeFiles/cuoiki2015.dir/build.make CMakeFiles/cuoiki2015.dir/ex/quan_ly_may_chu/cuoiki2015.c.o.provides.build
+.PHONY : CMakeFiles/cuoiki2015.dir/ex/quan_ly_may_chu/cuoiki2015.c.o.provides
 
-CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.o.provides.build: CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.o
+CMakeFiles/cuoiki2015.dir/ex/quan_ly_may_chu/cuoiki2015.c.o.provides.build: CMakeFiles/cuoiki2015.dir/ex/quan_ly_may_chu/cuoiki2015.c.o
 
 
 # Object files for target cuoiki2015
 cuoiki2015_OBJECTS = \
-"CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.o"
+"CMakeFiles/cuoiki2015.dir/ex/quan_ly_may_chu/cuoiki2015.c.o"
 
 # External object files for target cuoiki2015
 cuoiki2015_EXTERNAL_OBJECTS =
 
-cuoiki2015: CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.o
+cuoiki2015: CMakeFiles/cuoiki2015.dir/ex/quan_ly_may_chu/cuoiki2015.c.o
 cuoiki2015: CMakeFiles/cuoiki2015.dir/build.make
 cuoiki2015: ../binaries/libigraph.a
 cuoiki2015: libfdr/libfdr.a
@@ -102,7 +102,7 @@ CMakeFiles/cuoiki2015.dir/build: cuoiki2015
 
 .PHONY : CMakeFiles/cuoiki2015.dir/build
 
-CMakeFiles/cuoiki2015.dir/requires: CMakeFiles/cuoiki2015.dir/ex/cuoiki2015.c.o.requires
+CMakeFiles/cuoiki2015.dir/requires: CMakeFiles/cuoiki2015.dir/ex/quan_ly_may_chu/cuoiki2015.c.o.requires
 
 .PHONY : CMakeFiles/cuoiki2015.dir/requires
 

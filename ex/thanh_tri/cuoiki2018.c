@@ -29,7 +29,7 @@ void print_vector(igraph_vector_t *v) {
 int case1(){
     int m,n,z,k=0;
     memset(ma_tran_ke,0,4*MAX*MAX);
-    FILE* p = fopen("/home/phungson/hyouteisan/ex/dothi.txt","r");
+    FILE* p = fopen("/home/phungson/hyouteisan/ex/thanh_tri/dothi.txt","r");
     if(p == NULL)
     {
         printf("Loi khong doc duoc file\n");
@@ -114,7 +114,7 @@ int case4(){
     scanf("%d",&xuatphat);
     printf("Nhap vao thanh tri dich: ");
     scanf("%d",&dich);
-    FILE* p = fopen("/home/phungson/hyouteisan/ex/dothi1.txt","r");
+    FILE* p = fopen("/home/phungson/hyouteisan/ex/thanh_tri/dothi1.txt","r");
     fscanf(p,"%d",&sothanhtrimoi);
     fscanf(p,"%d",&soduongdimoi);
     igraph_t g;
@@ -170,6 +170,43 @@ int case5(){
     printf("%ld\n",print_range(&e,&w));
     print_vector(&v);
 }
+int case32(){
+    int a;
+    FILE* p = fopen("/home/phungson/hyouteisan/ex/thanh_tri/dothi.txt","r");
+    fscanf(p,"%d",&a);
+    fscanf(p,"%d",&a);
+    igraph_t g;
+    igraph_vector_t bbv;
+    igraph_vector_t v;
+    igraph_vector_t e;
+    igraph_vector_t w;
+    igraph_vector_init(&bbv,0);
+    while(fscanf(p,"%d",&a)!= EOF)
+    {
+        igraph_vector_push_back(&bbv, a);
+        fscanf(p,"%d",&a);
+        igraph_vector_push_back(&bbv, a);
+        fscanf(p,"%d",&a);
+    }
+    igraph_create(&g,&bbv,0,1);
+    igraph_degree(&g,&bbv, igraph_vss_all(), IGRAPH_ALL, IGRAPH_NO_LOOPS);
+    int max = VECTOR(bbv)[0];
+    for (int i = 1; i < igraph_vector_size(&bbv); i++)
+        {
+            if (VECTOR(bbv)[i] > max)
+            {
+                max = VECTOR(bbv)[i];
+            }
+        }
+    for (int i = 0; i < igraph_vector_size(&bbv); i++)
+        {
+            if (VECTOR(bbv)[i] == max)
+            {
+                printf("%d ",i);
+            }
+        }
+    printf("\n");
+}
 int main(){
     int chon;
     while (1)
@@ -188,6 +225,7 @@ int main(){
     case 1: case1()    ;   break; 
     case 2 : case2(); break;
     case 31 : case31() ; break;
+    case 32 : case32() ; break;
     case 4 : case4() ; break;
     case 5 : case5() ; break;
     case 6: break; 

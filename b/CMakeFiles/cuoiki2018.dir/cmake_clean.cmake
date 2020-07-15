@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cuoiki2018.dir/ex/cuoiki2018.c.o"
+  "CMakeFiles/cuoiki2018.dir/ex/thanh_tri/cuoiki2018.c.o"
   "cuoiki2018.pdb"
   "cuoiki2018"
 )
