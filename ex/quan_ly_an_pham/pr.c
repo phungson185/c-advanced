@@ -6,7 +6,8 @@
 #include"igraph/igraph.h"
 #include"DebugPrintf/debug_printf.h"
 #include"c-vector/cvector.h"
-#define MAX 101
+#define MAX 10001
+#define MAX1 1000000
 int so_luong_an_pham;
 int so_luong_trich_dan;
 JRB n2i;
@@ -16,6 +17,8 @@ igraph_vector_t code;
 igraph_vector_t v;
 igraph_vector_t e;
 igraph_vector_t w;
+int *V[MAX1];
+int A[MAX1];
 typedef struct trichdan{
     int u;
     int v;
@@ -82,7 +85,8 @@ int docfile(char* tenfile)
         cvector_push_back(data_trichdan,tmp);
         igraph_vector_push_back(&code,a);
         igraph_vector_push_back(&code,b);
-        //igraph_vector_push_back(&w,1);
+        igraph_vector_push_back(&w,1);
+        cvector_push_back(V[a],b);
     }
     fclose(p);
 }
@@ -118,7 +122,7 @@ int main(int argc, char *argv[])
                 printf("Khong tim thay.\n");
             }
         }
-    if(strcmp(argv[1],"cc")==0)
+    /*if(strcmp(argv[1],"cc")==0)
         {
             int c;
             docfile(argv[2]);
@@ -138,8 +142,57 @@ int main(int argc, char *argv[])
                         }
                 }
         }
+        }*/
+    if(strcmp(argv[1],"cc")==0)
+    {
+        memset(A,0,4*MAX);
+        docfile(argv[2]);
+        for(int i = 0;i<cvector_size(V[atoi(argv[3])]) ;i++)
+        {
+            A[V[atoi(argv[3])][i]]++;
         }
+        for(int i = 0;i<cvector_size(V[atoi(argv[4])]) ;i++)
+        {
+            A[V[atoi(argv[4])][i]]++;
+        }
+        for(int i = 0; i< MAX1 ; i++)
+        {
+            if(A[i] == 2)
+            {
+                printf("%s\n",jrb_find_int(i2n,i)->val.s);
+            }
+        }
+    }
     if(strcmp(argv[1],"cr")==0)
+        {
+            int *vector = NULL;
+            docfile(argv[2]);
+            for(int i = 0; i<MAX1;i++)
+            {
+                int k = 0;
+                for(int j = 0;j<cvector_size(V[i]);j++)
+                {
+                    //printf("%d %d %d\n",V[i][j],atoi(argv[3]),atoi(argv[4]));
+                    if(V[i][j] == atoi(argv[3]) ||V[i][j] == atoi(argv[4]))
+                        k++;
+                }
+                if(k==2) cvector_push_back(vector,i);
+            }
+            //printf("%ld\n",cvector_size(vector));
+            for(int i =0 ; i < cvector_size(vector);i++)
+                printf("%s\n",jrb_find_int(i2n,vector[i])->val.s);
+        }
+    if(strcmp(argv[1],"cs")==0)
+        {
+            docfile(argv[2]);
+            printf("Danh sach ke cua %d la:",atoi(argv[3]));
+                for(int j = 0;j<cvector_size(V[atoi(argv[3])]);j++)
+                {
+                    printf("%d ",V[atoi(argv[3])][j]);
+                }
+            printf("\n");
+        }
+    /*if(strcmp(argv[1],"cr")==0)
         {
             int c;
             docfile(argv[2]);
@@ -160,7 +213,7 @@ int main(int argc, char *argv[])
                         }
                 }
         }
-        }
+        }*/
     /*if(strcmp(argv[1],"odg")==0)
     {
         docfile(argv[2]);
@@ -220,10 +273,10 @@ int main(int argc, char *argv[])
     {
         docfile(argv[2]);
         igraph_create(&g,&code,0,1);
-        igraph_degree(&g, &code, igraph_vss_all(), IGRAPH_OUT, IGRAPH_NO_LOOPS);
+        igraph_degree(&g,&code, igraph_vss_all(), IGRAPH_OUT, IGRAPH_NO_LOOPS);
         for (int i = 0; i < igraph_vector_size(&code); i++)
         {
-            if (VECTOR(code)[i] > 1)
+            if (VECTOR(code)[i] > atoi(argv[3]))
             {
                 printf("%s\n",jrb_find_int(i2n,i)->val.s);
             }  

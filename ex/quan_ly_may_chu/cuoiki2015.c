@@ -51,12 +51,12 @@ int main(int argc, char *argv[])
         return -1;
     }
     fscanf(f,"%d",&so_luong_may_chu);
-    while(fscanf(f,"%d",&id))
+    while(kiemtra_ip != so_luong_may_chu)
     {
         kiemtra_ip++;
+        fscanf(f,"%d",&id);
         fscanf(f,"%s",dia_chi_ip);
         jrb_insert_int(ip,id,(Jval){.s=strdup(dia_chi_ip)});
-        if(kiemtra_ip == 3) break;
     }
     fscanf(f,"%d",&so_luong_lien_ket);
     while(fscanf(f,"%d",&tt.id1[i]))
@@ -65,7 +65,7 @@ int main(int argc, char *argv[])
         fscanf(f,"%d",&tt.id2[i]);
         fscanf(f,"%d",&tt.kc[i]);
         i++;
-        if(kiemtra_lk == 3) break;
+        if(kiemtra_lk == so_luong_lien_ket) break;
     }
     fclose(f);
     if (strcmp(argv[1],"-v")==0)

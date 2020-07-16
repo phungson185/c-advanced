@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
     igraph_bool_t isdag;
     FILE *p;
     FILE *k;
-    if((p=fopen("/home/phungson/hyouteisan/ex/inp.txt","r"))==NULL)
+    if((p=fopen("/home/phungson/hyouteisan/ex/bt_tren_lop/inp.txt","r"))==NULL)
         {
             printf("Loi ko mo file\n");
             return -1;

@@ -60,78 +60,40 @@ CMAKE_SOURCE_DIR = /home/phungson/hyouteisan
 CMAKE_BINARY_DIR = /home/phungson/hyouteisan/b
 
 #=============================================================================
-# Target rules for target CMakeFiles/dns.dir
+# Target rules for target CMakeFiles/pr.dir
 
 # All Build rule for target.
-CMakeFiles/dns.dir/all: libfdr/CMakeFiles/fdr.dir/all
-CMakeFiles/dns.dir/all: DebugPrintf/CMakeFiles/debug_printf.dir/all
-	$(MAKE) -f CMakeFiles/dns.dir/build.make CMakeFiles/dns.dir/depend
-	$(MAKE) -f CMakeFiles/dns.dir/build.make CMakeFiles/dns.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phungson/hyouteisan/b/CMakeFiles --progress-num=3,4 "Built target dns"
-.PHONY : CMakeFiles/dns.dir/all
+CMakeFiles/pr.dir/all: libfdr/CMakeFiles/fdr.dir/all
+CMakeFiles/pr.dir/all: DebugPrintf/CMakeFiles/debug_printf.dir/all
+	$(MAKE) -f CMakeFiles/pr.dir/build.make CMakeFiles/pr.dir/depend
+	$(MAKE) -f CMakeFiles/pr.dir/build.make CMakeFiles/pr.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phungson/hyouteisan/b/CMakeFiles --progress-num=8,9 "Built target pr"
+.PHONY : CMakeFiles/pr.dir/all
 
 # Include target in all.
-all: CMakeFiles/dns.dir/all
+all: CMakeFiles/pr.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/dns.dir/rule: cmake_check_build_system
+CMakeFiles/pr.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/phungson/hyouteisan/b/CMakeFiles 9
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/dns.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pr.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/phungson/hyouteisan/b/CMakeFiles 0
-.PHONY : CMakeFiles/dns.dir/rule
+.PHONY : CMakeFiles/pr.dir/rule
 
 # Convenience name for target.
-dns: CMakeFiles/dns.dir/rule
+pr: CMakeFiles/pr.dir/rule
 
-.PHONY : dns
-
-# clean rule for target.
-CMakeFiles/dns.dir/clean:
-	$(MAKE) -f CMakeFiles/dns.dir/build.make CMakeFiles/dns.dir/clean
-.PHONY : CMakeFiles/dns.dir/clean
+.PHONY : pr
 
 # clean rule for target.
-clean: CMakeFiles/dns.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/qlykhang.dir
-
-# All Build rule for target.
-CMakeFiles/qlykhang.dir/all: libfdr/CMakeFiles/fdr.dir/all
-CMakeFiles/qlykhang.dir/all: DebugPrintf/CMakeFiles/debug_printf.dir/all
-	$(MAKE) -f CMakeFiles/qlykhang.dir/build.make CMakeFiles/qlykhang.dir/depend
-	$(MAKE) -f CMakeFiles/qlykhang.dir/build.make CMakeFiles/qlykhang.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phungson/hyouteisan/b/CMakeFiles --progress-num=10,11 "Built target qlykhang"
-.PHONY : CMakeFiles/qlykhang.dir/all
-
-# Include target in all.
-all: CMakeFiles/qlykhang.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/qlykhang.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phungson/hyouteisan/b/CMakeFiles 9
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/qlykhang.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/phungson/hyouteisan/b/CMakeFiles 0
-.PHONY : CMakeFiles/qlykhang.dir/rule
-
-# Convenience name for target.
-qlykhang: CMakeFiles/qlykhang.dir/rule
-
-.PHONY : qlykhang
+CMakeFiles/pr.dir/clean:
+	$(MAKE) -f CMakeFiles/pr.dir/build.make CMakeFiles/pr.dir/clean
+.PHONY : CMakeFiles/pr.dir/clean
 
 # clean rule for target.
-CMakeFiles/qlykhang.dir/clean:
-	$(MAKE) -f CMakeFiles/qlykhang.dir/build.make CMakeFiles/qlykhang.dir/clean
-.PHONY : CMakeFiles/qlykhang.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/qlykhang.dir/clean
+clean: CMakeFiles/pr.dir/clean
 
 .PHONY : clean
 
@@ -160,7 +122,7 @@ libfdr/preinstall:
 libfdr/CMakeFiles/fdr.dir/all:
 	$(MAKE) -f libfdr/CMakeFiles/fdr.dir/build.make libfdr/CMakeFiles/fdr.dir/depend
 	$(MAKE) -f libfdr/CMakeFiles/fdr.dir/build.make libfdr/CMakeFiles/fdr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phungson/hyouteisan/b/CMakeFiles --progress-num=5,6,7,8,9 "Built target fdr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phungson/hyouteisan/b/CMakeFiles --progress-num=3,4,5,6,7 "Built target fdr"
 .PHONY : libfdr/CMakeFiles/fdr.dir/all
 
 # Include target in all.

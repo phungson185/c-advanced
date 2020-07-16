@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/p.dir/ex/quan_ly_may_chu/cuoi_ki_2015.c.o  -o p  -L/home/phungson/hyouteisan/cmake-btree/lib -Wl,-rpath,/home/phungson/hyouteisan/cmake-btree/lib ../binaries/libigraph.a -lm libfdr/libfdr.a DebugPrintf/libdebug_printf.a 
